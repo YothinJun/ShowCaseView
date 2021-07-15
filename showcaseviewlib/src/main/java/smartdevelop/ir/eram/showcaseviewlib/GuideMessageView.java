@@ -74,7 +74,7 @@ class GuideMessageView extends LinearLayout {
         );
     }
 
-    public void setTitle(String title) {
+    public void setTitle(String title, String newStr) {
         if (title == null) {
             removeView(mTitleTextView);
             return;
